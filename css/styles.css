@@ -87,7 +87,7 @@ background-color: #2e2f42;
 }
 .button:hover,
 .button:focus{
-color: #404BBF;
+background-color: #404BBF;
 }
 .advantages-section {}
 .title-advantages {
