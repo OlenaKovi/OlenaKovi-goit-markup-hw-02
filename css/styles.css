@@ -1,7 +1,4 @@
-/* font-family: "Raleway",
-sans-serif;
-font-family: "Roboto",
-sans-serif; */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -73,7 +70,7 @@ background-color: #2e2f42;
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -85,6 +82,12 @@ background-color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus{
+color: #404BBF;
 }
 .advantages-section {}
 .title-advantages {
@@ -112,9 +115,10 @@ visibility: hidden;
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .subtitle-team {
@@ -136,9 +140,10 @@ visibility: hidden;
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .subtitle-portfolio {
